@@ -1,0 +1,6 @@
+dev: true
+project_name: 'node-csv-reader'
+
+connection:
+  port: 5002
+  host: localhost

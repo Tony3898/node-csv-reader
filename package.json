@@ -1,0 +1,44 @@
+{
+  "name": "@tony3898/node-csv-reader",
+  "version": "1.0.0",
+  "description": "node-csv-reader",
+  "main": "server.js",
+  "author": "Tejas Rana <contact@tejasrana.in> (https://tejasrana.in/)",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "nodemon server",
+    "build": "npm install",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tony3898/node-csv-reader.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "server.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tony3898/node-csv-reader/issues"
+  },
+  "homepage": "https://github.com/Tony3898/node-csv-reader",
+  "keywords": [
+    "node-csv-reader"
+  ],
+  "dependencies": {
+    "yargs": "^16.1.1",
+    "path": "^0.12.7",
+    "chalk": "^4.1.0",
+    "js-yaml": "^3.14.0",
+    "express": "^4.17.1",
+    "bluebird": "^3.7.2",
+    "multer": "^1.4.2",
+    "moment": "^2.29.1",
+    "body-parser": "^1.19.0"
+  }
+}
